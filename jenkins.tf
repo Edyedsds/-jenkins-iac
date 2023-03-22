@@ -19,7 +19,7 @@ module "ec2_instance" {
   key_name               = "vockey"
   monitoring             = true
   vpc_security_group_ids = [module.jenkins_sg.security_group_id]
-  subnet_id              = "subnet-0fb3e31bd8cfa7fc4"
+  subnet_id              = "subnet-0026f95d9786992b9"
   user_data              = file("./dependencias.sh")
   iam_instance_profile   = "LabInstanceProfile"
 
