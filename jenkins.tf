@@ -3,7 +3,7 @@ module "jenkins_sg" {
 
   name        = "Jenkins-SG"
   description = "Security group for jenkins instance"
-  vpc_id      = "vpc-0405b29a5eb96d387"
+  vpc_id      = "vpc-0bf2a6d9e16a80199"
   ingress_cidr_blocks      = ["0.0.0.0/0"]
   ingress_rules            = ["http-80-tcp"]
   egress_rules		   = ["all-all"]
